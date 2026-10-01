@@ -1,0 +1,43 @@
+
+/*стили для формы*/
+#form {
+    display: flex;
+    flex-direction: column;
+    background: #f2f1f1;
+}
+input, textarea{
+    margin-top: 20px;
+}
+#form label{
+    margin-bottom: -15px;
+    margin-left: 10px;
+    font-size: 0.9em;
+}
+
+#form textarea{
+    resize:none;
+}
+
+#form input[type=submit]{
+    width: fit-content;
+}
+form .modal-body{
+    padding:0 0.5rem;
+}
+/*надпись об ошибке заполнения поля*/
+.field-error{
+    font-size: .75em;
+    color: #dc3545;
+    margin-left: 10px;
+    margin-bottom: -15px;
+}
+/*стили для формы*/
+
+/*стили для карточки*/
+.nav-links > a{
+    display: inline-block;
+    padding: 2px 5px;
+}
+
+
+/*стили для карточки*/

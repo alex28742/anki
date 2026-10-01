@@ -1,0 +1,246 @@
+
+/*.touth-select-wrap{*/
+/*    height: 37px;*/
+/*    margin-right: 25px;*/
+/*    outline: 1px solid #0b5ed7;*/
+/*    padding: 0px 10px;*/
+/*    border-radius: 5px;*/
+/*}*/
+/*.touth-select-wrap > input, .touth-select-wrap > label{*/
+/*    position:relative;*/
+/*    top: -9px;*/
+/*    color: #0b5ed7;*/
+/*}*/
+/*.touth-select-wrap > label{*/
+/*    top: -10px;*/
+/*}*/
+
+.wrapper-estimate {
+    font-size: 13px;
+}
+
+.wrapper-estimate table.table td, .wrapper-estimate table.table th{
+    text-align: center;
+}
+.wrapper-estimate table.table td:first-child, .wrapper-estimate table.table th:first-child{
+    text-align: left;
+}
+
+.wrapper-estimate .smile{
+    font-size: 18px;
+    padding: 0;
+    position: relative;
+    top: 5px;
+}
+
+form.tough{
+    background: #eaf7d3 !important;
+}
+
+/*.touth-select-wrap{*/
+/*    margin-right: 15px;*/
+/*}*/
+
+.touth-select-wrap > .form-check-input {
+    margin-left: 0;
+}
+.item-definition{
+    border: 1px solid #cbcbcb;
+    border-radius: 5px;
+    font-size: 11px !important;
+}
+
+.container-search{
+    height: 50px;
+    position: relative;
+    font-size: 13px;
+
+}
+.search-request{
+    position: absolute;
+    background: #fff;
+    z-index: 99;
+    width: 100%;
+    padding: 0 10px;
+    max-height: 500px;
+    overflow: auto;
+}
+
+.container-search.line .card-body{
+    background: #f2ede4;
+}
+.container-search.line a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-wrapp{
+    height: 90vh;
+}
+
+
+@media screen and (min-width: 500px) {
+    .main-wrapp{
+        margin: 0 auto;
+        max-width: 475px;
+        border: 1px solid #cbcbcb;
+        padding: 0 15px;
+        height: 90vh;
+        overflow: auto;
+    }
+}
+
+/* на экранах менее 360px убираю счетчики в нижнем меню */
+@media screen and (max-width: 359px) {
+    .fixed-bottom .badge.bg-primary.rounded-pill {
+        display: none;
+    }
+    .hide-on-small-phone{
+        display: none;
+    }
+}
+
+.fixed-bottom .btn-group form{
+    margin: 0;
+}
+.fixed-bottom .btn-group form button{
+    border-radius: 0px;
+}
+
+.modal-footer {
+    padding-right: 25px;
+}
+#edit_word .modal-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.counter-cards{
+    cursor:pointer;
+}
+
+.hidden-menu{
+    /*position: absolute;*/
+    /*top: -50px;*/
+}
+
+
+.header .container.top-container{
+    justify-content: space-around;
+}
+.header .container.top-container > a{
+    display: block;
+    margin-left: 10px;
+}
+
+
+
+.navbar.fixed-bottom{
+    max-width: 475px;
+    margin: 0 auto;
+}
+
+.dictionary-wrap {
+    height: auto;
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.dictionary-wrap .w-label {
+    position: relative;
+    top: -15px;
+    left: 9px;
+    background: #fff;
+    width: fit-content;
+    padding: 0 10px;
+    font-size: 0.8em;
+    color: #333;
+}
+
+.dictionary-wrap .w-message{
+    border:1px solid #cbcbcb;
+    padding: 5px;
+}
+
+#area_front {
+    margin-top: 10px;
+}
+
+.nextshow{ font-size: 0.7em }
+.nextshow.warning{ font-weight: bold; color:red;}
+
+
+form.povtor{
+    background: lightcoral;
+}
+
+form.card-btn{
+    min-width: 112px;
+}
+form.card-btn > .btn{
+    width: 100%;
+}
+
+.simple-btn{
+    width: fit-content;
+}
+
+.card-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.additional-buttons{
+    display: flex;
+    overflow: auto;
+    justify-content: end;
+}
+
+.additional-buttons > a{
+    display: block;
+    margin-left: 6px;
+}
+
+.align-right{
+    display: flex;
+    justify-content: end;
+}
+
+#form { background: none; }
+.params-panel {
+    border:1px solid #b3abab;
+    border-radius: 5px;
+    font-size: 0.7em;
+    text-shadow: 0 0 1px #bbb0b0;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+.params-panel > span{
+    display: block;
+    padding: 3px;
+    min-width: 140px;
+}
+button.reverse{
+    width:fit-content;
+}
+.btn-panel{
+    display: flex;
+    justify-content: space-around;
+    overflow-x: auto;
+}
+
+.btn-panel div {
+    margin-left: 5px;
+}
+
+.navbar.fixed-bottom .container{
+    /*justify-content: end;*/
+}
+.navbar.fixed-bottom .container > div, .navbar.fixed-bottom .container > button{
+    /*margin-left:10px;*/
+}
+
+

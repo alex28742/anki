@@ -1,0 +1,12 @@
+<?php
+// Скопируйте этот файл в config_db.php и подставьте свои локальные данные.
+// config_db.php не должен попадать в git (см. .gitignore).
+//
+// Значения также можно задать через переменные окружения
+// (ANKI_DB_DSN, ANKI_DB_USER, ANKI_DB_PASS) - тогда редактировать
+// сам файл не нужно, см. app/config/config_db.php.
+return [
+    'dsn' => 'mysql:host=127.0.0.1;dbname=anki_local;charset=utf8',
+    'user' => 'anki_local',
+    'pass' => 'change-me'
+];
